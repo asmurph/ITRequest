@@ -1505,19 +1505,6 @@
         "runtime": {
           "bin/placeholder/NewVendor.Entity.dll": {}
         }
-      },
-      "NewVendor.Service/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "NewVendor.Entity": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/NewVendor.Service.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/NewVendor.Service.dll": {}
-        }
       }
     }
   },
@@ -5739,11 +5726,6 @@
       "type": "project",
       "path": "../NewVendor.Entity/NewVendor.Entity.csproj",
       "msbuildProject": "../NewVendor.Entity/NewVendor.Entity.csproj"
-    },
-    "NewVendor.Service/1.0.0": {
-      "type": "project",
-      "path": "../NewVendor.Service/NewVendor.Service.csproj",
-      "msbuildProject": "../NewVendor.Service/NewVendor.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5751,8 +5733,7 @@
       "Microsoft.EntityFrameworkCore.Design >= 3.1.10",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.10",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.10",
-      "NewVendor.Entity >= 1.0.0",
-      "NewVendor.Service >= 1.0.0"
+      "NewVendor.Entity >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5783,9 +5764,6 @@
           "projectReferences": {
             "C:\\Users\\Anthonhy\\source\\repos\\NewVendor\\NewVendor.Entity\\NewVendor.Entity.csproj": {
               "projectPath": "C:\\Users\\Anthonhy\\source\\repos\\NewVendor\\NewVendor.Entity\\NewVendor.Entity.csproj"
-            },
-            "C:\\Users\\Anthonhy\\source\\repos\\NewVendor\\NewVendor.Service\\NewVendor.Service.csproj": {
-              "projectPath": "C:\\Users\\Anthonhy\\source\\repos\\NewVendor\\NewVendor.Service\\NewVendor.Service.csproj"
             }
           }
         }

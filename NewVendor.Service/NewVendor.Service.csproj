@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\NewVendor.Entity\NewVendor.Entity.csproj" />
+    <ProjectReference Include="..\NewVendor.Persistence\NewVendor.Persistence.csproj" />
   </ItemGroup>
 
 </Project>

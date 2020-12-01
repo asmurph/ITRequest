@@ -11,8 +11,7 @@
           "Microsoft.EntityFrameworkCore.Design": "3.1.10",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.10",
           "Microsoft.EntityFrameworkCore.Tools": "3.1.10",
-          "NewVendor.Entity": "1.0.0",
-          "NewVendor.Service": "1.0.0"
+          "NewVendor.Entity": "1.0.0"
         },
         "runtime": {
           "NewVendor.Persistence.dll": {}
@@ -1039,14 +1038,6 @@
         "runtime": {
           "NewVendor.Entity.dll": {}
         }
-      },
-      "NewVendor.Service/1.0.0": {
-        "dependencies": {
-          "NewVendor.Entity": "1.0.0"
-        },
-        "runtime": {
-          "NewVendor.Service.dll": {}
-        }
       }
     }
   },
@@ -1757,11 +1748,6 @@
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
     "NewVendor.Entity/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "NewVendor.Service/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

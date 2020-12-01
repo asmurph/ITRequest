@@ -18,7 +18,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\NewVendor.Entity\NewVendor.Entity.csproj" />
-    <ProjectReference Include="..\NewVendor.Service\NewVendor.Service.csproj" />
   </ItemGroup>
 
 </Project>

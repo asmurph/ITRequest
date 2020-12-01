@@ -35,5 +35,6 @@ namespace NewVendor.Persistence
         public DbSet<TerminationClause> TerminationClauses { get; set; }
         public DbSet<Tier> Tiers { get; set; }
         public DbSet<UserDataAccess> UserDataAccesses { get; set; }
+        public DbSet<RequestType> RequestTypes { get; set; }
     }
 }

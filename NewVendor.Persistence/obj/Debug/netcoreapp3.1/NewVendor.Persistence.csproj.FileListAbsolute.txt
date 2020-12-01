@@ -21,9 +21,7 @@ C:\Users\Anthonhy\source\repos\NewVendor\NewVendor.Persistence\bin\Debug\netcore
 C:\Users\Anthonhy\source\repos\NewVendor\NewVendor.Persistence\bin\Debug\netcoreapp3.1\NewVendor.Persistence.dll
 C:\Users\Anthonhy\source\repos\NewVendor\NewVendor.Persistence\bin\Debug\netcoreapp3.1\NewVendor.Persistence.pdb
 C:\Users\Anthonhy\source\repos\NewVendor\NewVendor.Persistence\bin\Debug\netcoreapp3.1\NewVendor.Entity.dll
-C:\Users\Anthonhy\source\repos\NewVendor\NewVendor.Persistence\bin\Debug\netcoreapp3.1\NewVendor.Service.dll
 C:\Users\Anthonhy\source\repos\NewVendor\NewVendor.Persistence\bin\Debug\netcoreapp3.1\NewVendor.Entity.pdb
-C:\Users\Anthonhy\source\repos\NewVendor\NewVendor.Persistence\bin\Debug\netcoreapp3.1\NewVendor.Service.pdb
 C:\Users\Anthonhy\source\repos\NewVendor\NewVendor.Persistence\obj\Debug\netcoreapp3.1\NewVendor.Persistence.csprojAssemblyReference.cache
 C:\Users\Anthonhy\source\repos\NewVendor\NewVendor.Persistence\obj\Debug\netcoreapp3.1\NewVendor.Persistence.AssemblyInfoInputs.cache
 C:\Users\Anthonhy\source\repos\NewVendor\NewVendor.Persistence\obj\Debug\netcoreapp3.1\NewVendor.Persistence.AssemblyInfo.cs
