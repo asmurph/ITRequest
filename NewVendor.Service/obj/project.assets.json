@@ -1,0 +1,88 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "NewVendor.Entity/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/NewVendor.Entity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NewVendor.Entity.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NewVendor.Entity/1.0.0": {
+      "type": "project",
+      "path": "../NewVendor.Entity/NewVendor.Entity.csproj",
+      "msbuildProject": "../NewVendor.Entity/NewVendor.Entity.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "NewVendor.Entity >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Anthonhy\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Anthonhy\\source\\repos\\NewVendor\\NewVendor.Service\\NewVendor.Service.csproj",
+      "projectName": "NewVendor.Service",
+      "projectPath": "C:\\Users\\Anthonhy\\source\\repos\\NewVendor\\NewVendor.Service\\NewVendor.Service.csproj",
+      "packagesPath": "C:\\Users\\Anthonhy\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Anthonhy\\source\\repos\\NewVendor\\NewVendor.Service\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Anthonhy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "C:\\Users\\Anthonhy\\source\\repos\\NewVendor\\NewVendor.Entity\\NewVendor.Entity.csproj": {
+              "projectPath": "C:\\Users\\Anthonhy\\source\\repos\\NewVendor\\NewVendor.Entity\\NewVendor.Entity.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

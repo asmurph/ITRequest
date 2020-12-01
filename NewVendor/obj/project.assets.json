@@ -1,0 +1,113 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "NewVendor.Entity/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/NewVendor.Entity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NewVendor.Entity.dll": {}
+        }
+      },
+      "NewVendor.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "NewVendor.Entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/NewVendor.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NewVendor.Service.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NewVendor.Entity/1.0.0": {
+      "type": "project",
+      "path": "../NewVendor.Entity/NewVendor.Entity.csproj",
+      "msbuildProject": "../NewVendor.Entity/NewVendor.Entity.csproj"
+    },
+    "NewVendor.Service/1.0.0": {
+      "type": "project",
+      "path": "../NewVendor.Service/NewVendor.Service.csproj",
+      "msbuildProject": "../NewVendor.Service/NewVendor.Service.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "NewVendor.Entity >= 1.0.0",
+      "NewVendor.Service >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Anthonhy\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Anthonhy\\source\\repos\\NewVendor\\NewVendor\\NewVendor.csproj",
+      "projectName": "NewVendor",
+      "projectPath": "C:\\Users\\Anthonhy\\source\\repos\\NewVendor\\NewVendor\\NewVendor.csproj",
+      "packagesPath": "C:\\Users\\Anthonhy\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Anthonhy\\source\\repos\\NewVendor\\NewVendor\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Anthonhy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "C:\\Users\\Anthonhy\\source\\repos\\NewVendor\\NewVendor.Entity\\NewVendor.Entity.csproj": {
+              "projectPath": "C:\\Users\\Anthonhy\\source\\repos\\NewVendor\\NewVendor.Entity\\NewVendor.Entity.csproj"
+            },
+            "C:\\Users\\Anthonhy\\source\\repos\\NewVendor\\NewVendor.Service\\NewVendor.Service.csproj": {
+              "projectPath": "C:\\Users\\Anthonhy\\source\\repos\\NewVendor\\NewVendor.Service\\NewVendor.Service.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
