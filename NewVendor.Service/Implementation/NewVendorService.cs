@@ -4,6 +4,8 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
+using System.Linq;
+
 
 namespace NewVendor.Service.Implementation
 {
@@ -14,25 +16,25 @@ namespace NewVendor.Service.Implementation
         {
             _context = context;
         }
-        public Task CreateAsync(VendorRequest req)
+        public async Task CreateAsync(VendorRequest req)
         {
-            throw new NotImplementedException();
+            await _context.VendorRequest.AddAsync(req);
+            await _context.SaveChangesAsync();
+          
         }
 
-        public Task Delete(int req)
+        public async Task Delete(int Id)
         {
-            throw new NotImplementedException();
+            var reqs = GetById(Id);
+            _context.Remove(reqs);
+            await _context.SaveChangesAsync();
+        
         }
 
-        public IEnumerable<VendorRequest> GetAll()
-        {
-            throw new NotImplementedException();
-        }
-
-        public VendorRequest GetById(int Id)
-        {
-            throw new NotImplementedException();
-        }
+        public IEnumerable<VendorRequest> GetAll() => _context.VendorRequest;
+       
+        public VendorRequest GetById(int Id) => _context.VendorRequest.Where(m => m.Id == Id).FirstOrDefault();
+       
 
         public Task UpdateAsync(int id)
         {

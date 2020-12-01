@@ -13,28 +13,28 @@ namespace NewVendor.Persistence
 
         }
 
-        public DbSet<VendorRequest> VendorRequests { get; set; }
-        public DbSet<AssignabilityClause> AssignabilityClauses { get; set; }
-        public DbSet<AutoRenew> AutoRenews { get; set; }
-        public DbSet<BuildingAccess> BuildingAccesses { get; set; }
-        public DbSet<BusinessUnit> BusinessUnits { get; set; }
-        public DbSet<ContractLength> ContractLengths { get; set; }
-        public DbSet<ContractScope> ContractScopes { get; set; }
-        public DbSet<ContractSigned> ContractSigneds { get; set; }
-        public DbSet<ContractType> ContractTypes { get; set; }
-        public DbSet<Currency> Currencies { get; set; }
+        public DbSet<VendorRequest> VendorRequest { get; set; }
+        public DbSet<AssignabilityClause> AssignabilityClause{ get; set; }
+        public DbSet<AutoRenew> AutoRenew { get; set; }
+        public DbSet<BuildingAccess> BuildingAccesse { get; set; }
+        public DbSet<BusinessUnit> BusinessUnit { get; set; }
+        public DbSet<ContractLength> ContractLength { get; set; }
+        public DbSet<ContractScope> ContractScope { get; set; }
+        public DbSet<ContractSigned> ContractSigned { get; set; }
+        public DbSet<ContractType> ContractType { get; set; }
+        public DbSet<Currency> Currencie { get; set; }
       //  public DbSet<Entity> Entities { get; set; }
-        public DbSet<FacilitiesType> FacilitiesTypes { get; set; }
-        public DbSet<IsBudgeted> IsBudgeteds { get; set; }
-        public DbSet<LegalReviewNeeded> LegalReviewNeededs { get; set; }
-        public DbSet<Location> Locations { get; set; }
-        public DbSet<Region> Regions { get; set; }
-        public DbSet<ServiceArea> Services { get; set; }
-        public DbSet<SupplierType> SupplierTypes { get; set; }
-        public DbSet<SystemNetworkAccess> SystemNetworkAccesses { get; set; }
-        public DbSet<TerminationClause> TerminationClauses { get; set; }
-        public DbSet<Tier> Tiers { get; set; }
-        public DbSet<UserDataAccess> UserDataAccesses { get; set; }
-        public DbSet<RequestType> RequestTypes { get; set; }
+        public DbSet<FacilitiesType> FacilitiesType { get; set; }
+        public DbSet<IsBudgeted> IsBudgeted { get; set; }
+        public DbSet<LegalReviewNeeded> LegalReviewNeeded { get; set; }
+        public DbSet<Location> Location { get; set; }
+        public DbSet<Region> Region { get; set; }
+        public DbSet<ServiceArea> Service { get; set; }
+        public DbSet<SupplierType> SupplierType { get; set; }
+        public DbSet<SystemNetworkAccess> SystemNetworkAccess { get; set; }
+        public DbSet<TerminationClause> TerminationClause { get; set; }
+        public DbSet<Tier> Tier { get; set; }
+        public DbSet<UserDataAccess> UserDataAccesse { get; set; }
+        public DbSet<RequestType> RequestType { get; set; }
     }
 }

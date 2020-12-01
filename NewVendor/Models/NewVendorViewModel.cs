@@ -13,43 +13,43 @@ namespace NewVendor.Models
         public string Folder { get; set; }
         public string Email { get; set; }
         public string NoticeEmail { get; set; }
-        public string Role_Title { get; set; }
+        public string RoleTitle { get; set; }
         public string Product_Service { get; set; }
         public string Address { get; set; }
         public string Description { get; set; }
         public string Owner_Manager { get; set; }
         public string TotalCost { get; set; }
         public string AnnualCost { get; set; }
-        public string PO_ { get; set; }
-        public string Cost_Center { get; set; }
-        public string Business_Justification { get; set; }
-        public string Contract_Title { get; set; }
+        public string PO { get; set; }
+        public string CostCenter { get; set; }
+        public string BusinessJustification { get; set; }
+        public string ContractTitle { get; set; }
         public Nullable<System.DateTime> StartDate { get; set; }
         public Nullable<System.DateTime> EndDate { get; set; }
-        public string Contract_Length { get; set; }
-        public Nullable<System.DateTime> Renewal_Date_Notice { get; set; }
-        public string Termination_Notice__Days_ { get; set; }
-        public string Law_Location { get; set; }
+        public string ContractLength { get; set; }
+        public Nullable<System.DateTime> RenewalDateNotice { get; set; }
+        public string TerminationNoticeDays { get; set; }
+        public string LawLocation { get; set; }
         public string Notes { get; set; }
-        public string IT_Ticket_ { get; set; }
+        public string ITTicket { get; set; }
         public string Comments { get; set; }
-        public string Asset_Manager { get; set; }
-        public Nullable<System.DateTime> Asset_Manager_Approved_On { get; set; }
-        public string Desktop_Arch { get; set; }
-        public Nullable<System.DateTime> Desktop_Arch_Approved_On { get; set; }
+        public string AssetManager { get; set; }
+        public Nullable<System.DateTime> AssetManagerApprovedOn { get; set; }
+        public string DesktopArch { get; set; }
+        public Nullable<System.DateTime> DesktopArchApprovedOn { get; set; }
         public string Facilities { get; set; }
-        public Nullable<System.DateTime> Facilities_Approved_On { get; set; }
+        public Nullable<System.DateTime> FacilitiesApprovedOn { get; set; }
         public string Finance { get; set; }
-        public Nullable<System.DateTime> Finance_Approved_On { get; set; }
+        public Nullable<System.DateTime> FinanceApprovedOn { get; set; }
         public string InfoSec { get; set; }
-        public Nullable<System.DateTime> InfoSec_Approved_On { get; set; }
+        public Nullable<System.DateTime> InfoSecApprovedOn { get; set; }
         public string Legal { get; set; }
-        public Nullable<System.DateTime> Legal_Approved_On { get; set; }
+        public Nullable<System.DateTime> LegalApprovedOn { get; set; }
         public string Compliance { get; set; }
-        public Nullable<System.DateTime> Compliance_Approved_On { get; set; }
+        public Nullable<System.DateTime> ComplianceApprovedOn { get; set; }
         public string Sourcing { get; set; }
-        public Nullable<System.DateTime> Sourcing_Approved_On { get; set; }
-        public string Confidential_Info { get; set; }
+        public Nullable<System.DateTime> SourcingApprovedOn { get; set; }
+        public string ConfidentialInfo { get; set; }
         public Nullable<System.DateTime> OwnerManagerDate { get; set; }
         public Nullable<System.DateTime> Created { get; set; }
         public string CreatedBy { get; set; }
@@ -92,5 +92,6 @@ namespace NewVendor.Models
         public Nullable<int> BackgroundCheckCompletedId { get; set; }
         public Nullable<int> PriorityId { get; set; }
         public Nullable<int> ContractLengthId { get; set; }
+        public string Choice { get; set; }
     }
 }

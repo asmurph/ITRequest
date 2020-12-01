@@ -27,6 +27,7 @@ namespace NewVendor
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<ApplicationDBContext>(options =>options.UseSqlServer(Configuration.GetConnectionString("DBCONN")));
+            services.AddScoped<INewVendorServices, NewVendorService>();
             services.AddScoped<IRequestTypeService, RequestTypeService>();
             services.AddControllersWithViews();
         }
@@ -55,7 +56,7 @@ namespace NewVendor
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=NewVendor}/{action=Index}/{id?}");
             });
         }
     }

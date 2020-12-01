@@ -121,3 +121,5 @@ C:\Users\Anthonhy\source\repos\NewVendor\NewVendor\bin\Debug\netcoreapp3.1\NewVe
 C:\Users\Anthonhy\source\repos\NewVendor\NewVendor\bin\Debug\netcoreapp3.1\NewVendor.Service.dll
 C:\Users\Anthonhy\source\repos\NewVendor\NewVendor\bin\Debug\netcoreapp3.1\NewVendor.Persistence.pdb
 C:\Users\Anthonhy\source\repos\NewVendor\NewVendor\bin\Debug\netcoreapp3.1\NewVendor.Service.pdb
+C:\Users\Anthonhy\source\repos\NewVendor\NewVendor\obj\Debug\netcoreapp3.1\Razor\Views\NewVendor\Create.cshtml.g.cs
+C:\Users\Anthonhy\source\repos\NewVendor\NewVendor\obj\Debug\netcoreapp3.1\Razor\Views\NewVendor\Index.cshtml.g.cs

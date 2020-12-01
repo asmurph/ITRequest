@@ -17,7 +17,7 @@ namespace NewVendor.Service.Implementation
         }
         public List<RequestType> GetRt()
         {
-            var reqTypes = _context.RequestTypes.ToList();
+            var reqTypes = _context.RequestType.ToList();
             return reqTypes;
         }
     }
