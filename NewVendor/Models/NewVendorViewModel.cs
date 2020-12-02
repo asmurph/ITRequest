@@ -14,10 +14,10 @@ namespace NewVendor.Models
         public string Email { get; set; }
         public string NoticeEmail { get; set; }
         public string RoleTitle { get; set; }
-        public string Product_Service { get; set; }
+        public string ProductService { get; set; }
         public string Address { get; set; }
         public string Description { get; set; }
-        public string Owner_Manager { get; set; }
+        public string OwnerManager { get; set; }
         public string TotalCost { get; set; }
         public string AnnualCost { get; set; }
         public string PO { get; set; }

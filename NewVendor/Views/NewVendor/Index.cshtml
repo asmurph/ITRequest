@@ -21,7 +21,8 @@
                                     <th>Requester</th>
                                     <th>Folder</th>
                                     <th>Role/Title</th>
-                                    <th>Desription</th>
+                                    <th>Description</th>
+                                    <th>Owner Manager</th>
                                     <th class="text-warning">Actions</th>
                                 </tr>
                             </thead>
@@ -36,33 +37,30 @@
                                 {
                                     @foreach (var item in Model)
                                     {
-                            <tr>
-                                <td>
-                                    <a asp-action="Detail" asp-route-id="@item.Id">
+                                        <tr>
+                                            <td>
+                                                <a asp-action="Detail" asp-route-id="@item.Id">
+                                                </a>
+                                            </td>
+                                            <td>@item.Requester</td>
+                                            <td>@item.Folder</td>
+                                            <td>@item.RoleTitle</td>
+                                            <td>@item.Description</td>
+                                            <td>@item.OwnerManager</td>                     
 
-                                    </a>
-                                </td>
-                                <td>@item.Requester</td>
-                                <td>@item.Folder</td>
-                                <td>@item.RoleTitle</td>
-                                <td>@item.Description</td>
-                            
 
-
-                            <td>
-                            </td>
-                            <td>
-                                <a class="text-primary" asp-action="Edit" asp-route-id="@item.Id">
-                                    <i class="fas fa-edit"></i> Edit
-                                </a>
-                                <a class="text-success" asp-action="Detail" asp-route-id="@item.Id">
-                                    <i class="fas fa-bars"></i> Detail
-                                </a>
-                                <a class="text-danger" asp-action="Delete" asp-route-id="@item.Id">
-                                    <i class="far fa-trash-alt"></i> Delete
-                                </a>
-                            </td>
-                            </tr>
+                                            <td>
+                                                <a class="text-primary" asp-action="Edit" asp-route-id="@item.Id">
+                                                    <i class="fas fa-edit"></i> Edit
+                                                </a>
+                                                <a class="text-success" asp-action="Detail" asp-route-id="@item.Id">
+                                                    <i class="fas fa-bars"></i> Detail
+                                                </a>
+                                                <a class="text-danger" asp-action="Delete" asp-route-id="@item.Id">
+                                                    <i class="far fa-trash-alt"></i> Delete
+                                                </a>
+                                            </td>
+                                         </tr>
                                     }
                                 }
 

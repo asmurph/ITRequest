@@ -61,7 +61,7 @@ namespace NewVendor.Controllers
         public IActionResult Create()
         {
           
-            var reqTypes = _reqType.GetType();
+            var reqTypes = _reqType.GetRt();
 
             if (reqTypes != null)
             {
@@ -83,15 +83,15 @@ namespace NewVendor.Controllers
                 {
                     Id = model.Id,
                     Requester = model.Requester,
-                    RequestTypeId = model.LocationId,
-                    ServiceAreaId = model.ServiceAreaId,
-                    BusinessUnitId = model.BusinessUnitId,
-                    RegionId = model.RegionId,
-                    Folder = model.Folder,
+                    RequestTypeId = model.RequestTypeId,
+                    //ServiceAreaId = model.ServiceAreaId,
+                    //BusinessUnitId = model.BusinessUnitId,
+                    //RegionId = model.RegionId,
+                    //Folder = model.Folder,
                     RoleTitle = model.RoleTitle,
                     Description = model.Description,
-                    OwnerManager = model.Owner_Manager,
-                    CurrencyId = model.CurrencyId,
+                    OwnerManager = model.OwnerManager,
+                    //CurrencyId = model.CurrencyId,
                     BusinessJustification = model.BusinessJustification,
                     StartDate = model.StartDate,
                     EndDate = model.EndDate,
